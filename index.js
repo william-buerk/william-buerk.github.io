@@ -43,6 +43,11 @@ function goToPreviousSection() {
   goToSection(currentSectionNumber);
 }
 
+/*
+* Accordions
+*/
+
+
 //Expands and collapses accordions
 function toggleAccordion(accordion) {
   let accordionList = accordion.querySelector(".info-section__list");
