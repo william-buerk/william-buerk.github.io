@@ -159,6 +159,14 @@ button:hover {
 }
 
 .hero__image {
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center 75%;
+    /* background-repeat: no-repeat; */
+}
+
+.hero__image_container {
     position: relative;
     height: 100%;
     margin: 0 auto;
@@ -169,7 +177,7 @@ button:hover {
 }
 
 @media (min-width: 87.5rem) {
-    .hero__image {
+    .hero__image_container {
         margin: 0;
         width: 50%;
     }
